@@ -73,7 +73,7 @@ public class MyStringListSortSearch  {
 		int len = strArray.length;
 		int newlen = 2*len;
 		String[] temp = new String[newlen];
-		//System.arraycopy(strArray,0,temp,0,len);
+		System.arraycopy(strArray,0,temp,0,len);
 		strArray = temp;
 	}
 	

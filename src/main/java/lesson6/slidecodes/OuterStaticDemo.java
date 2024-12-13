@@ -25,8 +25,8 @@ public class OuterStaticDemo {
 		}
 		void myOtherMethod() {
 			// Cannot make a static reference to the non-static field s
-			//String t = s; 
-			//System.out.println(s);
+//			String t = s;
+//			System.out.println(s);
 					
 		}
 	}

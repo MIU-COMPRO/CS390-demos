@@ -1,9 +1,10 @@
 package lesson4.junittest;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import lesson4.junittest.MyTestClass;
 public class MyTestClassTest {
     @Test
     public void test1() {
