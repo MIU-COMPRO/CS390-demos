@@ -26,11 +26,11 @@ public class EmployeeTest {
 		Date d = e.getHireDay();
 		d.setTime(11100L);
 		System.out.printf("\nAfter change %tD",e.getHireDay());
-	/*	GregorianCalendar d1 = e.getGc();
+		GregorianCalendar d1 = e.getGc();
 		System.out.println("Before change GC = " +d1.get(Calendar.DAY_OF_MONTH));
 		d1.set(2000, 2, 20);
 		System.out.println("Before change GC = " + e.getGc().get(Calendar.DAY_OF_MONTH));
-	*/
+
 	}
 
 }

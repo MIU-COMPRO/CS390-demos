@@ -8,9 +8,10 @@ public class Conversions {
 	public static void main(String[] args) {
 		char c = 'A';
 		int unicodeVal = (int)c;  // this is in base 10
+		int newValue = (int) c;
 		String hexVal = Integer.toHexString(unicodeVal); //value = 41
 		System.out.println("unicode value for Character A is: \\u" + pad(hexVal));
-		
+		System.out.println("newValue " + newValue);
 		c = '终'; 
 		unicodeVal = (int)c;  // this is in base 10
 		hexVal = Integer.toHexString(unicodeVal); //value = 7ec8

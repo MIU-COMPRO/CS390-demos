@@ -9,7 +9,10 @@ public class StringUpdates {
                Blue
                 """;
         System.out.println(rgb);
-
+        String ams = """
+                Hello my name is %s
+                """.formatted("Amadu Sarjo Jallow");
+        System.out.println(ams);
         String name = "Tom";
         int age = 30;
         String greeting = """

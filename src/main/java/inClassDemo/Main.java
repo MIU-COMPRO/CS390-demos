@@ -37,21 +37,24 @@ public class Main {
 //        System.out.println(finalSentence);
 
         //Using StringBuilder
-        int len = 0;
-        if(args == null || args.length == 0) {
-            System.out.println("<no input>");
-        }
-        StringBuilder finalSentence = new StringBuilder();
-        len = args.length;
-        for(int i = 0; i < len-1; ++i) {
-            finalSentence.append(args[i]);
-            finalSentence.append(" "); //much more efficient
-        }
-        finalSentence.append(args[len-1]);
-        finalSentence.append(".");
-// Convert the StringBuilder to a String at the end.
-        String finalSentenceAsString = finalSentence.toString();
-        System.out.println(finalSentenceAsString);
+//        int len = 0;
+//        if(args == null || args.length == 0) {
+//            System.out.println("<no input>");
+//        }
+//        StringBuilder finalSentence = new StringBuilder();
+//        len = args.length;
+//        for(int i = 0; i < len-1; ++i) {
+//            finalSentence.append(args[i]);
+//            finalSentence.append(" "); //much more efficient
+//        }
+//        finalSentence.append(args[len-1]);
+//        finalSentence.append(".");
+//// Convert the StringBuilder to a String at the end.
+//        String finalSentenceAsString = finalSentence.toString();
+//        System.out.println(finalSentenceAsString);
+
+        //
+                System.err.println("The bicycle has already stopped!");
 
     }
 }

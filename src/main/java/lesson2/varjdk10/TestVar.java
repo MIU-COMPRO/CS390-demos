@@ -6,7 +6,7 @@ public class TestVar {
         // Local variables are declared inside a method.
         var y = 10; // Infer int automatically
         // cannot reassign other type of values cause error
-       // y = 12.5;
+//        y = 12.5;
         var name = "Anonymous"; // Infer as a String automatically
         System.out.println("length = " + name.length());
         var sum=0;

@@ -25,7 +25,7 @@ public class ArrayCopyTest {
 		System.out.println(Arrays.toString(copy3));
 		// Approach 4
 		int[] original1 = {1, 2, 3};
-		int[] copy4 = original.clone();
+		int[] copy4 = original1.clone();
 		System.out.println(Arrays.toString(copy4));
 		// Approach 5
 		int[] original2 = {1, 2, 3, 4, 5};

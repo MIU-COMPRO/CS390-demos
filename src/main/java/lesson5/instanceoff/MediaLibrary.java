@@ -5,8 +5,10 @@ public class MediaLibrary {
         for (Media media : mediaList) {
             if (media instanceof Movie movie) {
 //                System.out.println(STR."Movie: \{movie.getTitle()}, Directed by: \{movie.getDirector()}");
+                System.out.println("Movie: " + movie.getTitle()+ ", Directed by: " + movie.getDirector());
             } else if (media instanceof Song song) {
 //                System.out.println(STR."Song: \{song.getTitle()}, Performed by: \{song.getArtist()}");
+                System.out.println("Song: " + song.getTitle() + ", Performed by: " + song.getArtist());
             }
         }
     }

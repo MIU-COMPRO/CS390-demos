@@ -6,7 +6,7 @@ public class FloatAndDouble {
 		float x = 0.0F + 1.0F/17;
 		double y = x;
 		System.out.println(x==y);
-		
+//		System.out.println("test= " + 1.0/17);
 		System.out.println("float value of x: " + x);
 		System.out.println("double value of x: " + y);
 		

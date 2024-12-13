@@ -16,7 +16,7 @@ public class Unicode {
 		System.out.println("Z = " + z);
 		System.out.println("Hexa Decimal Value :" + hexVal);
 		System.out.println("\u004b");
-		String COPYRIGHT = "\u00a9";
+		char COPYRIGHT = '\u00a9';
 		String REGISTERED = "\u00ae";
 		String EURO = "\u20ac";
 		System.out.println(COPYRIGHT + " "+REGISTERED + " "+EURO);
@@ -30,8 +30,8 @@ public class Unicode {
 		System.out.println(tamilString);
 		
 				System.out.println('\u1200');
-				
-				System.out.println("\ud835\udd6b");
+
+				System.out.println("\uD835\uDD6B");
 			
 				System.out.println("\"Hello\" \n next line");
 		}

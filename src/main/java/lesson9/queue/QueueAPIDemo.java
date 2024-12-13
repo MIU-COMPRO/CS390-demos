@@ -34,17 +34,17 @@ public class QueueAPIDemo {
 	        System.out.println(queue);  
 	        queue.clear();
 	        System.out.println(queue);
-	        System.out.println("Remove : " + queue.element());
+//	        System.out.println("Remove : " + queue.element());
 	       	     	       	       
-	        System.out.println("Top Element: " + queue.element());
-	        System.out.println("poll: " + queue.poll());
-	         System.out.println("Remove : " + queue.remove());
-	        System.out.println("Top Element: " + queue.peek());
-	        queue.removeAll(queue);
-	        System.out.println(queue.size());
+//	        System.out.println("Top Element: " + queue.element());
+//	        System.out.println("poll: " + queue.poll());
+//	         System.out.println("Remove : " + queue.remove());
+//	        System.out.println("Top Element: " + queue.peek());
+//	        queue.removeAll(queue);
+//	        System.out.println(queue.size());
 	     //   System.out.println("remove: " +  queue.element()); // throw exception, when the queue is empty
 	    // System.out.println("Top Element: " + queue.peek());// return null if the queue is empty
-	      System.out.println("Top Element: " + queue.remove());// Throw NoSuchElement Exception
+//	      System.out.println("Top Element: " + queue.remove());// Throw NoSuchElement Exception
 
 			// Regular Queue - remove from the front, and add at rear
 	        Queue<Integer> pq = new PriorityQueue<Integer>();
@@ -61,7 +61,7 @@ public class QueueAPIDemo {
 	        }
 	        
 	     // Regular Deque(Double ended Queue) - remove from the front, and add at rear
-	        Deque<String> dq = new LinkedList(); 
+	        Deque<String> dq = new LinkedList();
 	        //Deque<Integer> dq1 = new PriorityQueue();
 	        dq.add ("Java"); //add element at tail 
 	        dq.addFirst("C#"); //add an element at head

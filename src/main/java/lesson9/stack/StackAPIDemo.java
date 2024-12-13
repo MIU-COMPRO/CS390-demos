@@ -7,7 +7,7 @@ public class StackAPIDemo {
 		// Demo with Stack Methods
 		Stack<String> obj = new Stack<>();
 		obj.push("Java");
-		Stack<Integer> stack = new Stack<Integer>();
+		Stack<Integer> stack = new Stack<>();
 		System.out.println("Integer Stack");
 		stack.push(5);
 		stack.push(6);

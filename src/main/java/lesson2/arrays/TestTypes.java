@@ -15,7 +15,7 @@ public class TestTypes {
 		// Reference/Object type
 		Integer a = 20;
 		int res = a.compareTo(20);
-		
+		System.out.println(res);
 
 	}
 

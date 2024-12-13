@@ -34,10 +34,13 @@ public class DataConversion {
 	   byte b1 = 5;
 	   byte b2 = 3;
 	   byte b3 = (byte) (b1 + b2);
+		System.out.println("b3: " + b3);
 
 	   int x1;
 	   double d1= 123.567;
 	   x1 = (int)d1;
+		System.out.printf("Rounding double %d%n", Math.round(d1));
+		System.out.printf("x1 = %d ", x1);
 	   
 	}
 
