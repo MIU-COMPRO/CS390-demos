@@ -15,6 +15,8 @@ public class FormatOutput {
 		System.out.printf("Happy birthday %s. I can't believe you're %d\n",name,age);
 		String oweMe = String.format("You owe me %.2f dollars", 196f);
 		String oweMe2 = String.format("You owe me %d dollars", 196);
+//		String ams = String.format("Hello %s", name);
+//		System.out.println(ams);
 		System.out.println(oweMe);
 		System.out.println(oweMe2);
 		System.out.println("Todays date : " + new Date());
@@ -28,11 +30,11 @@ public class FormatOutput {
 		System.out.printf("Hexa Decimal Value of x1: %x",x1);
 		System.out.printf("\n%-6d #%4s#%7.2f\n", 1234, "Java", 51.6653);
 		
-	/*	Object [] params = {"animal", "dog"};
-		String stringWithParameter = 
+		Object [] params = {"animal", "dog"};
+		String stringWithParameter =
 		    "Look at that {0} -- it looks like a {1}.";
 		System.out.println("original string: " + stringWithParameter);
 		System.out.println("formatted string: " + MessageFormat.format(stringWithParameter,params));
-	*/
+
 	}
 }

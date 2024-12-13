@@ -52,7 +52,7 @@ public class ExpressionDemo {
 		String expr2 = "(a*](a-b)";
 		String expr3 = "[A+25*(Y*(B+C-X-K/D)*(E+13)]+M";
 		Expression ob2 = new Expression(expr2);
-//		System.out.println(STR."\{expr2} : \{ob2.isExpressionValid()}");
-//		System.out.println(STR."\{expr3} : \{new Expression(expr3).isExpressionValid()}");
+		System.out.println(expr2 + ":" + ob2.isExpressionValid());
+		System.out.println(expr3 + ":" + new Expression(expr3).isExpressionValid());
 	}
 }

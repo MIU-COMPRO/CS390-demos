@@ -19,8 +19,8 @@ public class StringMethods {
 		System.out.println(empty.length());
 		
 		String name1 = "Robertt";
-		int posOfT = name1.indexOf('x'); 
-		System.out.println(posOfT);
+		int posOfT = name1.indexOf('x');
+		System.out.println("indexOf: " + posOfT);
 		int posOfSubstr = name1.indexOf("bert"); 
 		System.out.println(posOfSubstr);
 		

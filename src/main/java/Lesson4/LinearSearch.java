@@ -6,7 +6,7 @@ public class LinearSearch {
 		// TODO Auto-generated method stub
 		Object[] i = { 10,20,15,12,65,50};
 		Object[] s = {"java","c#","SE","UML","WAP"};
-		System.out.println("Searching of 12 in the list : " + Search(i,50)); // 3
+		System.out.println("Searching of 50 in the list : " + Search(i,50)); // 5
 		System.out.println("Searching of 22 in the list : " + Search(i,22)); // -1
 		System.out.println("Searching of ASD in the list : " + Search(s,"ASD")); // -1
 		System.out.println("Searching of SE in the list : " + Search(s,"SE")); //2

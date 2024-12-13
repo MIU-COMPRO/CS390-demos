@@ -32,6 +32,7 @@ public class MyStringList {
 		return strArray[i];
 	}
 
+   //find is same as contains
 	public boolean find(String s) {
 		if (s == null)
 			return false;

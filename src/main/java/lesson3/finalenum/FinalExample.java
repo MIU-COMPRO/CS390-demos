@@ -14,7 +14,7 @@ package lesson3.finalenum;
 	// Return the error message.
 	
 	String getErrorMsg(int i) {
-		if (i >= 0 & i < msgs.length)
+		if (i >= 0 && i < msgs.length)
 			return msgs[i];
 		else
 			return "Invalid Error Code";
