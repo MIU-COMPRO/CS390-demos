@@ -63,8 +63,7 @@ public class Apple implements Comparable<Apple>
 	   }
 	@Override
 	   public int hashCode() {
-		   int hascodeColor = color.hashCode()%11;
-		   int
+
 		    return Objects.hash(color,wt,price);
 	   }
 	@Override
