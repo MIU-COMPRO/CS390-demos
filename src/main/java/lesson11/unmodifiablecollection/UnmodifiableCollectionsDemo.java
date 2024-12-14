@@ -18,13 +18,13 @@ public class UnmodifiableCollectionsDemo {
         list.add("three");
         // JDK 8
         List<String> unmodifiableList = Collections.unmodifiableList(list);
-        System.out.println(STR."Unmodifiable List: \{unmodifiableList}");
+        System.out.println("Unmodifiable List: " +unmodifiableList);
         // If you try to add or remove or update, throw UnsupportedOperationException
       // unmodifiableList.add("four");
        // unmodifiableList.remove(1);
         // JDK 9 or later
         List<String> unmodifiableList1 = List.of("one","two","three");
-        System.out.println(STR."Unmodifiable List: \{unmodifiableList1}");
+        System.out.println("Unmodifiable List: " + unmodifiableList1);
 
         // Unmodifiable Set
         Set<String> set = new HashSet<>();
